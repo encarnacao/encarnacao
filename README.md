@@ -1,6 +1,6 @@
 # Hello, there! I'm Caio 👋
 
-  Currently studying physics at **Federal University of Rio de Janeiro** (**UFRJ**), and looking foward to become a Fullstack Developer through Driven Education's course, a nine-month bootcamp in which we develop several projects, all present here in this GitHub page.
+  Currently studying physics at **Federal University of Rio de Janeiro** (**UFRJ**), and looking foward to become a Fullstack Developer through **Driven Education**'s course, a nine-month bootcamp in which we develop several projects, all present here in this GitHub page.
   
   I love solving problems, physics and math! Also very interested in `Data Science`, but still have a lot to learn. Technology is also a big passion, obviously.
   
