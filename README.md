@@ -27,7 +27,7 @@
 
 ---
 
-<img src="https://github-readme-stats.vercel.app/api?username=encarnacao&show_icons=true&theme=dracula">	&nbsp; <img height="195" src="https://github-readme-stats.vercel.app/api/top-langs/?username=encarnacao&layout=compact&theme=dracula">
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=encarnacao&show_icons=true&theme=dracula"><img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=encarnacao&layout=compact&theme=dracula">
 
 <!---
 encarnacao/encarnacao is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
