@@ -24,7 +24,7 @@
 
 <a href="mailto:cencarnacaoq@gmail.com"><img src="https://img.shields.io/badge/GMAIL-cencarnacaoq%40gmail.com-%23D14836?style=for-the-badge&logo=gmail"></a>
 <a href="https://www.linkedin.com/in/cencarnacaoq/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-
+<a href="https://wakatime.com/@encarnacao"><img src="https://img.shields.io/badge/WakaTime-000000?style=for-the-badge&logo=WakaTime&logoColor=white"></a>
 ---
 
 <img height="180" src="https://github-readme-stats.vercel.app/api?username=encarnacao&show_icons=true&theme=dracula">&nbsp;<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=encarnacao&layout=compact&theme=dracula">
