@@ -4,7 +4,7 @@
   
   I love solving problems, physics and math! Also very interested in `Data Science`, but still have a lot to learn. Technology is also a big passion, obviously.
   
-## I'm currently learning some tools such as: 
+## 🌱 I'm currently learning some tools and languages such as: 
  
  <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
  <code><img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></code>
@@ -13,14 +13,14 @@
  <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
  <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
 
-## Also have some experience with:
+## 👨‍💻 Also have some experience with:
   
  <code><img height="30" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/git.svg"></code>
  <code><img height="30" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/c.svg"></code>
  <code><img height="30" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/python.svg"></code>
  <code><img height="30" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/bash.svg"></code>
 
-### Contact me
+### 📫 Contact me
 
 <a href="mailto:cencarnacaoq@gmail.com"><img src="https://img.shields.io/badge/GMAIL-cencarnacaoq%40gmail.com-%23D14836?style=for-the-badge&logo=gmail"></a>
 <a href="https://www.linkedin.com/in/cencarnacaoq/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
