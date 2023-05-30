@@ -5,11 +5,11 @@
   I love solving problems, physics and math! Also very interested in `Data Science`, but still have a lot to learn. Technology is also a big passion, obviously.
   
 ## 🌱 I'm currently learning some tools and languages such as: 
- <!-- Typescript, Tailwind, PostgreSQL and Next icons -->
-  <code><img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"></code>
+ <code><img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"></code>
   <code><img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg"></code>
   <code><img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"></code>
   <code><img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg"></code>
+  <code><img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg"></code>
 
 
 
