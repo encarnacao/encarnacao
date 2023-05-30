@@ -5,20 +5,25 @@
   I love solving problems, physics and math! Also very interested in `Data Science`, but still have a lot to learn. Technology is also a big passion, obviously.
   
 ## 🌱 I'm currently learning some tools and languages such as: 
- 
+ <!-- Typescript, Tailwind, PostgreSQL and Next icons -->
+  <code><img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"></code>
+  <code><img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg"></code>
+  <code><img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"></code>
+  <code><img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg"></code>
+
+
+
+## 👨‍💻 Also have experience with:
  <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
  <code><img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"></code>
- <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png"></code>
- <code> <img height = "30" src = "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/markdown/markdown.png"></code>
  <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
  <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
-
-## 👨‍💻 Also have some experience with:
-  
  <code><img height="30" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/git.svg"></code>
  <code><img height="30" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/c.svg"></code>
  <code><img height="30" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/python.svg"></code>
+ <code><img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg"></code>
  <code><img height="30" src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/bash.svg"></code>
+ <code><img height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"></code>
 
 ### 📫 Contact me
 
@@ -27,7 +32,11 @@
 <a href="https://wakatime.com/@encarnacao"><img src="https://img.shields.io/badge/WakaTime-000000?style=for-the-badge&logo=WakaTime&logoColor=white"></a>
 ---
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=encarnacao&show_icons=true&theme=dracula">&nbsp;<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=encarnacao&layout=compact&theme=dracula">
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=encarnacao&show_icons=true&theme=dracula">
+
+
+#### Keywords:
+Typescript, Javascript, NodeJS, React, NextJS, HTML, CSS, Tailwind, PostgreSQL, MongoDB, Python, Flask, Bash, Git, GitHub, Linux, WakaTime, VSCode
 
 <!---
 encarnacao/encarnacao is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
