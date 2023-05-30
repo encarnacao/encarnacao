@@ -36,7 +36,7 @@
 
 
 #### Keywords:
-Typescript, Javascript, NodeJS, React, NextJS, HTML, CSS, Tailwind, PostgreSQL, MongoDB, Python, Flask, Bash, Git, GitHub, Linux, WakaTime, VSCode
+Typescript, Javascript, NodeJS, React, NextJS, HTML, CSS, Tailwind, PostgreSQL, Docker, MongoDB, Python, Flask, Bash, Git, GitHub, Linux, WakaTime, VSCode
 
 <!---
 encarnacao/encarnacao is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
