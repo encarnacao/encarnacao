@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import Backdrop from "@mui/material/Backdrop";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
-import Fade from "@mui/material/Fade";
 import Typography from "@mui/material/Typography";
 import { CircularProgress } from "@mui/material";
 import { getAnswer } from "@/api";
@@ -49,7 +48,6 @@ export default function AnswerModal({
         },
       }}
     >
-      <Fade in={modalStatus}>
         <Box sx={style} className="bg-roxinho flex justify-center items-center">
           {loading ? (
             <CircularProgress />
@@ -57,12 +55,11 @@ export default function AnswerModal({
             <Typography id="transition-modal-description" sx={{ mt: 2 }}>
               {answer?.id === -1
                 ? `Não há uma respota para essa descrição. 
-                Você pode me enviar no discord cencarnacaoq ou mandar um sussurro na twitch`
+                Você pode me enviar no discord cencarnacaoq ou mandar um sussurro na twitch.`
                 : answer?.answer}
             </Typography>
           )}
         </Box>
-      </Fade>
     </Modal>
   );
 }
