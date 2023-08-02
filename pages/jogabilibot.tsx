@@ -1,25 +1,34 @@
 import { getDescriptions } from "@/api";
 import { GetServerSideProps, InferGetServerSidePropsType } from "next";
-import { DataGrid, GridColDef } from "@mui/x-data-grid";
+import { DataGrid, GridColDef, GridEventListener } from "@mui/x-data-grid";
 import { DescriptionResponse } from "@/interfaces";
-import { Inter } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
-
-const inter = Inter({ subsets: ["latin"] });
+import { useState } from "react";
+import AnswerModal from "@/components/modal";
 
 export default function Jogabilibot({
   descriptions,
 }: InferGetServerSidePropsType<typeof getServerSideProps>) {
-  if (!descriptions) {
-    return (
-      <main
-        className={`flex min-h-screen items-center justify-center p-24 ${inter.className}`}
-      >
-        <p>Carregando...</p>
-      </main>
-    );
-  }
+  const [id, setId] = useState<number>(-1);
+  const [open, setOpen] = useState<boolean>(false);
+
+  const handleOpen = (id: number) => {
+    setId(id);
+    setOpen(true);
+  };
+
+  const handleClose = () => {
+    setId(-1);
+    setOpen(false);
+  };
+
+  const handleEvent: GridEventListener<"rowClick"> = (
+    params, // GridRowParams
+  ) => {
+    handleOpen(params.id as number);
+  };
+
   const columns: GridColDef[] = [
     {
       field: "id",
@@ -57,6 +66,13 @@ export default function Jogabilibot({
           />
         </Link>
       </div>
+      {open && (
+        <AnswerModal
+          descriptionId={id}
+          modalStatus={open}
+          setModalStatus={handleClose}
+        />
+      )}
       <div className="md:w-4/5 transition-all w-full">
         <DataGrid
           rows={descriptions}
@@ -68,6 +84,7 @@ export default function Jogabilibot({
               borderBottomColor: "#1e2735",
             },
           }}
+          onRowClick={handleEvent}
           className="bg-slate-900"
         />
       </div>

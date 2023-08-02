@@ -3,3 +3,8 @@ export interface DescriptionResponse {
   description: string;
   createdAt: string;
 }
+
+export interface AnswerResponse {
+  id: number;
+  answer: string;
+}
