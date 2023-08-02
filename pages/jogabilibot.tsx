@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import AnswerModal from "@/components/modal";
+import Head from "next/head";
 
 export default function Jogabilibot({
   descriptions,
@@ -24,7 +25,7 @@ export default function Jogabilibot({
   };
 
   const handleEvent: GridEventListener<"rowClick"> = (
-    params, // GridRowParams
+    params // GridRowParams
   ) => {
     handleOpen(params.id as number);
   };
@@ -47,48 +48,54 @@ export default function Jogabilibot({
     },
   ];
   return (
-    <main className="min-h-screen flex flex-col justify-start gap-5 items-center bg-roxinho py-10">
-      <div className="flex w-full justify-around">
-        <Link href="https://jogabilida.de">
-          <Image
-            src="https://jogabilida.de/wp-content/uploads/2017/09/logo_2017-1.png"
-            width={240}
-            height={80}
-            alt="Logo do Jogabilidade"
+    <>
+      <Head>
+        <link rel="icon" href="https://jogabilida.de/wp-content/uploads/2023/04/cropped-bilid-fav-32x32.png" />
+        <title>Jogabilibot - Descrições</title>
+      </Head>
+      <main className="min-h-screen flex flex-col justify-start gap-5 items-center bg-roxinho py-10">
+        <div className="flex w-full justify-around">
+          <Link href="https://jogabilida.de">
+            <Image
+              src="https://jogabilida.de/wp-content/uploads/2017/09/logo_2017-1.png"
+              width={240}
+              height={80}
+              alt="Logo do Jogabilidade"
+            />
+          </Link>
+          <Link href="https://twitch.tv/jogabilidade">
+            <Image
+              src="https://www.freepnglogos.com/uploads/purple-twitch-logo-png-18.png"
+              width={80}
+              height={80}
+              alt="Canal da Twitch"
+            />
+          </Link>
+        </div>
+        {open && (
+          <AnswerModal
+            descriptionId={id}
+            modalStatus={open}
+            setModalStatus={handleClose}
           />
-        </Link>
-        <Link href="https://twitch.tv/jogabilidade">
-          <Image
-            src="https://www.freepnglogos.com/uploads/purple-twitch-logo-png-18.png"
-            width={80}
-            height={80}
-            alt="Canal da Twitch"
+        )}
+        <div className="md:w-4/5 transition-all w-full">
+          <DataGrid
+            rows={descriptions}
+            columns={columns}
+            sx={{
+              color: "white",
+              borderColor: "#1e2735",
+              "& .MuiDataGrid-cell": {
+                borderBottomColor: "#1e2735",
+              },
+            }}
+            onRowClick={handleEvent}
+            className="bg-slate-900"
           />
-        </Link>
-      </div>
-      {open && (
-        <AnswerModal
-          descriptionId={id}
-          modalStatus={open}
-          setModalStatus={handleClose}
-        />
-      )}
-      <div className="md:w-4/5 transition-all w-full">
-        <DataGrid
-          rows={descriptions}
-          columns={columns}
-          sx={{
-            color: "white",
-            borderColor: "#1e2735",
-            "& .MuiDataGrid-cell": {
-              borderBottomColor: "#1e2735",
-            },
-          }}
-          onRowClick={handleEvent}
-          className="bg-slate-900"
-        />
-      </div>
-    </main>
+        </div>
+      </main>
+    </>
   );
 }
 
