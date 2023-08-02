@@ -7,6 +7,7 @@ import Link from "next/link";
 import { useState } from "react";
 import AnswerModal from "@/components/modal";
 import Head from "next/head";
+import Footer from "@/components/footer";
 
 export default function Jogabilibot({
   descriptions,
@@ -94,6 +95,7 @@ export default function Jogabilibot({
             className="bg-slate-900"
           />
         </div>
+        <Footer />
       </main>
     </>
   );

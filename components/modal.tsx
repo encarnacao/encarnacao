@@ -54,7 +54,7 @@ export default function AnswerModal({
           ) : (
             <Typography id="transition-modal-description" sx={{ mt: 2 }}>
               {answer?.id === -1
-                ? `Não há uma respota para essa descrição. 
+                ? `Não há uma resposta para essa descrição. 
                 Você pode me enviar no discord cencarnacaoq ou mandar um sussurro na twitch.`
                 : answer?.answer}
             </Typography>
