@@ -48,7 +48,7 @@ export default function AnswerModal({
         },
       }}
     >
-        <Box sx={style} className="bg-roxinho flex justify-center items-center">
+        <Box sx={style} className="bg-roxinho flex justify-center items-center w-full md:w-auto">
           {loading ? (
             <CircularProgress />
           ) : (
