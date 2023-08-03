@@ -35,7 +35,7 @@ export default function Jogabilibot({
     {
       field: "id",
       headerName: "#",
-      flex: 0.1,
+      flex: 0.05,
     },
     {
       field: "description",
@@ -54,7 +54,7 @@ export default function Jogabilibot({
         <link rel="icon" href="https://jogabilida.de/wp-content/uploads/2023/04/cropped-bilid-fav-32x32.png" />
         <title>Jogabilibot - Descrições</title>
       </Head>
-      <main className="min-h-screen flex flex-col justify-start gap-5 items-center bg-roxinho py-10">
+      <main style={{minHeight:"calc(100vh - 40px)"}} className="flex flex-col justify-start gap-5 items-center bg-roxinho py-10">
         <div className="flex w-full justify-around">
           <Link href="https://jogabilida.de">
             <Image
@@ -90,13 +90,16 @@ export default function Jogabilibot({
               "& .MuiDataGrid-cell": {
                 borderBottomColor: "#1e2735",
               },
+              "@media (max-width: 768px)": {
+                fontSize: "0.75rem",
+              },
             }}
             onRowClick={handleEvent}
             className="bg-slate-900"
           />
         </div>
-        <Footer />
       </main>
+      <Footer />
     </>
   );
 }
