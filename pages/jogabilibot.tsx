@@ -8,12 +8,15 @@ import { useState } from "react";
 import AnswerModal from "@/components/modal";
 import Head from "next/head";
 import Footer from "@/components/footer";
+import SnackBar from "@/components/snackbar";
+
 
 export default function Jogabilibot({
   descriptions,
 }: InferGetServerSidePropsType<typeof getServerSideProps>) {
   const [id, setId] = useState<number>(-1);
   const [open, setOpen] = useState<boolean>(false);
+
 
   const handleOpen = (id: number) => {
     setId(id);
@@ -24,6 +27,8 @@ export default function Jogabilibot({
     setId(-1);
     setOpen(false);
   };
+
+
 
   const handleEvent: GridEventListener<"rowClick"> = (
     params // GridRowParams
@@ -51,10 +56,16 @@ export default function Jogabilibot({
   return (
     <>
       <Head>
-        <link rel="icon" href="https://jogabilida.de/wp-content/uploads/2023/04/cropped-bilid-fav-32x32.png" />
+        <link
+          rel="icon"
+          href="https://jogabilida.de/wp-content/uploads/2023/04/cropped-bilid-fav-32x32.png"
+        />
         <title>Jogabilibot - Descrições</title>
       </Head>
-      <main style={{minHeight:"calc(100vh - 40px)"}} className="flex flex-col justify-start gap-5 items-center bg-roxinho py-10">
+      <main
+        style={{ minHeight: "calc(100vh - 40px)" }}
+        className="flex flex-col justify-start gap-5 items-center bg-roxinho py-10"
+      >
         <div className="flex w-full justify-around">
           <Link href="https://jogabilida.de">
             <Image
@@ -89,6 +100,7 @@ export default function Jogabilibot({
               borderColor: "#1e2735",
               "& .MuiDataGrid-cell": {
                 borderBottomColor: "#1e2735",
+                cursor: "pointer",
               },
               "@media (max-width: 768px)": {
                 fontSize: "0.75rem",
@@ -99,6 +111,7 @@ export default function Jogabilibot({
           />
         </div>
       </main>
+      <SnackBar />
       <Footer />
     </>
   );
