@@ -9,6 +9,7 @@ import AnswerModal from "@/components/modal";
 import Head from "next/head";
 import Footer from "@/components/footer";
 import SnackBar from "@/components/snackbar";
+import SuggestionAlert from "@/components/suggestion-alert";
 
 
 export default function Jogabilibot({
@@ -84,6 +85,7 @@ export default function Jogabilibot({
             />
           </Link>
         </div>
+        <SuggestionAlert />
         {open && (
           <AnswerModal
             descriptionId={id}
