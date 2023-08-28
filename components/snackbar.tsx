@@ -1,4 +1,4 @@
-import { Close } from "@mui/icons-material";
+import { Icon } from "@iconify/react";
 import { IconButton, Snackbar } from "@mui/material";
 import { useState } from "react";
 
@@ -16,24 +16,16 @@ export default function SnackBar() {
   };
 
   const action = (
-    <>
-      <IconButton
-        size="small"
-        aria-label="close"
-        color="inherit"
-        onClick={closeSnack}
-      >
-        <Close fontSize="small" />
-      </IconButton>
-    </>
+    <IconButton color="inherit" onClick={closeSnack}>
+      <Icon icon="material-symbols:close" />
+    </IconButton>
   );
-
 
   return (
     <>
       <Snackbar
         open={snackOpen}
-        autoHideDuration={10*1000}
+        autoHideDuration={10 * 1000}
         onClose={closeSnack}
         sx={{ zIndex: 9999 }}
         action={action}

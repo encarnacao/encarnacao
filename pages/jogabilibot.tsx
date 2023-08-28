@@ -11,13 +11,11 @@ import Footer from "@/components/footer";
 import SnackBar from "@/components/snackbar";
 import SuggestionAlert from "@/components/suggestion-alert";
 
-
 export default function Jogabilibot({
   descriptions,
 }: InferGetServerSidePropsType<typeof getServerSideProps>) {
   const [id, setId] = useState<number>(-1);
   const [open, setOpen] = useState<boolean>(false);
-
 
   const handleOpen = (id: number) => {
     setId(id);
@@ -28,8 +26,6 @@ export default function Jogabilibot({
     setId(-1);
     setOpen(false);
   };
-
-
 
   const handleEvent: GridEventListener<"rowClick"> = (
     params // GridRowParams
@@ -112,8 +108,8 @@ export default function Jogabilibot({
             className="bg-slate-900"
           />
         </div>
+        <SnackBar />
       </main>
-      <SnackBar />
       <Footer />
     </>
   );
