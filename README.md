@@ -1,6 +1,6 @@
 # Hello, there! I'm Caio 👋
 
-  Currently studying physics at **Federal University of Rio de Janeiro** (**UFRJ**), and I am a **Fullstack Developer**.
+  I'm a **Back-end Developer** with some Front-End experience, even if it's not my forte.
   I love solving problems, physics and math! Also very interested in `Data Science`, but still have a lot to learn. Technology is also a big passion, obviously.
   
 ## 🌱 I'm currently learning some tools and languages such as: 
@@ -35,7 +35,7 @@
 
 
 #### Keywords:
-Typescript, Javascript, NodeJS, React, NextJS, HTML, CSS, Tailwind, PostgreSQL, Docker, MongoDB, Python, Flask, Bash, Git, GitHub, Linux, WakaTime, VSCode
+Typescript, Javascript, NodeJS, NextJS, Tailwind, PostgreSQL, Docker, MongoDB, Python, Flask, Bash, Git, GitHub, Linux, VSCode
 
 <!---
 encarnacao/encarnacao is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
