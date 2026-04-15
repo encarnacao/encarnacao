@@ -36,6 +36,3 @@ I’m particularly interested in **software engineering**, **cloud architecture*
 <a href="mailto:cencarnacaoq@gmail.com"><img src="https://img.shields.io/badge/GMAIL-cencarnacaoq%40gmail.com-%23D14836?style=for-the-badge&logo=gmail"></a>
 <a href="https://www.linkedin.com/in/cencarnacaoq/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
----
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=encarnacao&show_icons=true&theme=dracula">
